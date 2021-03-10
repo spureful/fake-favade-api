@@ -1,0 +1,82 @@
+[
+  {
+    "id": "spec antenna ran 1",
+    "name": "spec antenna ran 1",
+    "targetResourceSchema": "schemaAntennaRan1",
+    "characteristics": [
+      {
+        "name": "weight",
+        "title": "Вес",
+        "value": "20",
+        "unit": "Кг"
+      },
+      {
+        "name": "frequencyBand",
+        "title": "Частота",
+        "value": "13G",
+        "unit": "Ггц"
+      },
+      {
+        "name": "diameter",
+        "title": "Диаметр",
+        "value": "0,6",
+        "unit": "М"
+      }
+    ],
+    "ports": [
+      {
+        "portType": "port-type-1",
+        "portCount": "4"
+      },
+      {
+        "portType": "port-type-2",
+        "portCount": "2"
+      }
+    ]
+  },
+  {
+    "id": "spec RRU 1",
+    "name": "spec RRU 1",
+    "targetResourceSchema": "schemaRRU1",
+    "characteristics": [
+      {
+        "name": "weight",
+        "title": "Вес",
+        "value": "20",
+        "unit": "kg"
+      },
+      {
+        "name": "Vendor",
+        "title": "Производитель",
+        "value": "Nokia"
+      },
+      {
+        "name": "location",
+        "title": "Расположение",
+        "value": "Outdoor"
+      }
+    ],
+    "ports": [
+      {
+        "portType": "port-type-1",
+        "portCount": "2"
+      },
+      {
+        "portType": "port-type-2",
+        "portCount": "1"
+      }
+    ]
+  },
+  {
+    "id": "SpecPhysicalConnection 1",
+    "name": "SpecPhysicalConnection 1",
+    "targetResourceSchema": "",
+    "characteristics": [
+      {
+        "name": "Vendor",
+        "title": "Производитель",
+        "value": "Nokia"
+      }
+    ]
+  }
+]
